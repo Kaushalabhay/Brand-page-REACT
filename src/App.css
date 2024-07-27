@@ -1,0 +1,118 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nike-image{
+    width: 50px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    max-height: 72px;
+    align-items: center;
+}
+
+
+.contact{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.login{
+    all: unset;
+    padding: 6px 6px;
+    background-color: #d01c28;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 6px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+main{
+    display: flex;
+    max-width: 1440px;
+    padding-top: 90px;
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+}
+
+.hero h1{
+font-weight:800;
+line-height: 102px;
+font-size: 108px;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.hero p{
+    font-weight: 600;
+    color: rgb(79, 78, 78);
+    max-width: 404px;
+    line-height: auto;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 70px;
+}
+
+.hero-button{
+    display: flex;
+    gap: 40px;
+    height: 32px;
+    color: white;
+    font-weight: 500; 
+}
+
+.showButton{ 
+    background-color: #d01c28;
+    border: none;
+    color: white;
+}
+
+.brand-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.CategoryButton{
+    background-color: transparent;
+    color: rgb(79, 78, 78);
+    border: 1px solid grey;
+    font-weight:bolder;
+}
+
+.shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
